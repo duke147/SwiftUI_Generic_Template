@@ -182,8 +182,8 @@
 		708E5D9224BDF2790053EC9C /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				708E5D9624BDF3A30053EC9C /* LoginAccountView.swift */,
 				708E5D9C24BDF4620053EC9C /* LoginPhoneView.swift */,
+				708E5D9624BDF3A30053EC9C /* LoginAccountView.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
