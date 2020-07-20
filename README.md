@@ -1,3 +1,3 @@
 # SwiftUI_Generic_Template
 SwiftUI模板
-master是一个简单通用版本
+SocialLogin是在通用模版上加上第三方登录
