@@ -46,10 +46,11 @@ struct LoginPhoneView: View {
      }
      var body: some View {
         VStack(alignment: .center, spacing: 22, content: {
-            Image("devishyns")
+            Image("unicorn")
                 .resizable()
                 .frame(width: 80, height: 80)
                 .padding(.bottom, 15)
+            
             // 手机号
             HStack{
                 Image(systemName: "person.fill")
@@ -111,7 +112,34 @@ struct LoginPhoneView: View {
                 Spacer()
             }
             
+            Spacer()
+            
+            // 快速登录分割线
+            HStack{
+                Image("login_register_left_line")
+                Text("快速登录")
+                Image("login_register_right_line")
+            }
+            
+            // 第三方登录
+            HStack{
+                Image("unicorn").resizable()
+                .frame(width: 80, height: 80)
+                .padding(.bottom, 15)
+                
+                Image("unicorn").resizable()
+                .frame(width: 80, height: 80)
+                .padding(.bottom, 15)
+                
+                Image("unicorn").resizable()
+                .frame(width: 80, height: 80)
+                .padding(.bottom, 15)
+            }
+            
+            // 撑开整个画布
+            Spacer()
         }).padding(.horizontal, 18)
+            .background(Color("FontColor"))
         
         
         
